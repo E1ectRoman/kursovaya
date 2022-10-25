@@ -2,18 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e116341-5544-49e5-b9ed-b667206fa124" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Bookmark/Bookmark.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Qualitie/Qualitie.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchStatus/SearchStatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/User/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/fake.api/professions.api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/GroupList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kursovaya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kursovaya.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/fake.api/user.api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bookmark/Bookmark.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Qualitie/Qualitie.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchStatus/SearchStatus.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/User.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,11 +51,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Roman/WebstormProjects/kursovaya/src/icons",
+    "last_opened_file_path": "C:/Users/Roman/WebstormProjects/todoshka",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,7 +84,17 @@
       <workItem from="1666234504078" duration="27000" />
       <workItem from="1666234553568" duration="50000" />
       <workItem from="1666311604708" duration="3301000" />
-      <workItem from="1666314960816" duration="1721000" />
+      <workItem from="1666314960816" duration="2034000" />
+      <workItem from="1666360694316" duration="61000" />
+      <workItem from="1666360765718" duration="1630000" />
+      <workItem from="1666362430859" duration="560000" />
+      <workItem from="1666517175262" duration="4996000" />
+      <workItem from="1666523459335" duration="680000" />
+      <workItem from="1666524282658" duration="457000" />
+      <workItem from="1666623290341" duration="987000" />
+      <workItem from="1666624307769" duration="436000" />
+      <workItem from="1666624760775" duration="646000" />
+      <workItem from="1666683539191" duration="2162000" />
     </task>
     <servers />
   </component>
