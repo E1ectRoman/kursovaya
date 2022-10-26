@@ -1,62 +1,62 @@
-import React, {useEffect, useState} from "react";
+import React, {useState, useEffect} from "react";
 import PropTypes from "prop-types";
 import {paginate} from "../utils/paginate";
 import Pagination from "./pagination";
 import User from "./user";
-import GroupList from "./GroupList";
-import api from '../api'
-import user from "./user";
+import api from "../api";
+import GroupList from "./GroupList"
 import SearchStatus from "./searchStatus";
 
 const Users = ({users: allUsers, ...rest}) => {
     const [currentPage, setCurrentPage] = useState(1);
-    const [professions, setProfessions] = useState();
+    const [professions, setProfession] = useState();
     const [selectedProf, setSelectedProf] = useState();
+
     const pageSize = 2;
-
     useEffect(() => {
-        api.professions.fetchAll().then((data) =>
-            setProfessions(
-                data
-            )
-        )
+        api.professions.fetchAll().then((data) => setProfession(data));
     }, []);
-
     useEffect(() => {
-        setCurrentPage(1)
+        setCurrentPage(1);
     }, [selectedProf]);
 
-
     const handleProfessionSelect = (item) => {
-        setSelectedProf(item)
-    }
+        setSelectedProf(item);
+    };
+
     const handlePageChange = (pageIndex) => {
         setCurrentPage(pageIndex);
     };
     const filteredUsers = selectedProf
-        ? allUsers.filter((user) => user.profession === selectedProf)
-        : allUsers
+        ? allUsers.filter(
+            (user) =>
+                JSON.stringify(user.profession) ===
+                JSON.stringify(selectedProf)
+        )
+        : allUsers;
+
     const count = filteredUsers.length;
-
-
     const usersCrop = paginate(filteredUsers, currentPage, pageSize);
     const clearFilter = () => {
-        setSelectedProf()
-    }
+        setSelectedProf();
+    };
 
     return (
-
         <div className="d-flex">
-
-
             {professions && (
-                <div className="d-fex flex-column flex-shrink-0 p-3">
-                    <GroupList selectedItem={selectedProf}
-                               items={professions}
-                               onItemSelect={handleProfessionSelect}
-
+                <div className="d-flex flex-column flex-shrink-0 p-3">
+                    <GroupList
+                        selectedItem={selectedProf}
+                        items={professions}
+                        onItemSelect={handleProfessionSelect}
                     />
-                    <button className='btn btn-secondary mt-2' onClick={clearFilter}>Очистить</button>
+                    <button
+                        className="btn btn-secondary mt-2"
+                        onClick={clearFilter}
+                    >
+                        {" "}
+                        Очистить
+                    </button>
                 </div>
             )}
             <div className="d-flex flex-column">
