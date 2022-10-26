@@ -5,29 +5,41 @@ import Pagination from "./pagination";
 import User from "./user";
 import GroupList from "./GroupList";
 import api from '../api'
+import user from "./user";
 
 const Users = ({users: allUsers, ...rest}) => {
     const [currentPage, setCurrentPage] = useState(1);
     const [professions, setProfessions] = useState();
+    const [selectedProf, setSelectedProf] = useState();
     const count = allUsers.length;
     const pageSize = 4;
 
     useEffect(() => {
         api.professions.fetchAll().then((data) => setProfessions(data))
-        // return () => {
-        // };
     }, []);
 
 
-    const handleProfessionSelect = (params) => {
+    const handleProfessionSelect = (item) => {
+        setSelectedProf(item)
     }
     const handlePageChange = (pageIndex) => {
         setCurrentPage(pageIndex);
     };
-    const usersCrop = paginate(allUsers, currentPage, pageSize);
+    const filteredUsers = selectedProf
+        ? allUsers.filter((user) => user.profession === selectedProf)
+        : allUsers
+
+    const usersCrop = paginate(filteredUsers, currentPage, pageSize);
+
     return (
         <>
-            <GroupList items={professions} onItemSelect={handleProfessionSelect}/>
+            {professions && (
+                <GroupList selectedItem={selectedProf}
+                           items={professions}
+                           onItemSelect={handleProfessionSelect}
+
+                />)}
+
 
             {count > 0 && (
                 <table className="table">
