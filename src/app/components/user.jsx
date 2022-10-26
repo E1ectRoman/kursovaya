@@ -2,23 +2,24 @@ import React from "react";
 import PropTypes from "prop-types";
 import Quality from "./quality";
 import BookMark from "./bookmark";
+
 const User = ({
-    _id,
-    name,
-    qualities,
-    profession,
-    completedMeetings,
-    rate,
-    onDelete,
-    bookmark,
-    onToggleBookMark
-}) => {
+                  _id,
+                  name,
+                  qualities,
+                  profession,
+                  completedMeetings,
+                  rate,
+                  onDelete,
+                  bookmark,
+                  onToggleBookMark
+              }) => {
     return (
         <tr>
             <td>{name}</td>
             <td>
                 {qualities.map((qual) => (
-                    <Quality {...qual} key={qual._id} />
+                    <Quality {...qual} key={qual._id}/>
                 ))}
             </td>
             <td>{profession.name}</td>
@@ -35,7 +36,7 @@ const User = ({
                     onClick={() => onDelete(_id)}
                     className="btn btn-danger"
                 >
-                    delete
+                    Удалить
                 </button>
             </td>
         </tr>
