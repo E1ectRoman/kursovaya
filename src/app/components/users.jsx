@@ -26,11 +26,7 @@ const Users = ({users: allUsers, ...rest}) => {
     setSelectedProf(item);
   };
   const handleSort = (item) => {
-    if (sortBy.iter === item) {
-      setSortBy((prevState) => ({...prevState, order: prevState.order === 'asc' ? 'desc' : 'asc'}))
-    } else {
-      setSortBy({iter: item, order: 'asc'})
-    }
+    setSortBy(item)
   }
 
   const handlePageChange = (pageIndex) => {
@@ -45,7 +41,7 @@ const Users = ({users: allUsers, ...rest}) => {
     : allUsers;
 
   const count = filteredUsers.length;
-  const sortedUsers = _.orderBy(filteredUsers, [sortBy.iter], [sortBy.order])
+  const sortedUsers = _.orderBy(filteredUsers, [sortBy.path], [sortBy.order])
   const usersCrop = paginate(sortedUsers, currentPage, pageSize);
   const clearFilter = () => {
     setSelectedProf();
@@ -72,7 +68,11 @@ const Users = ({users: allUsers, ...rest}) => {
       <div className="d-flex flex-column">
         <SearchStatus length={count}/>
         {count > 0 && (
-          <UserTable users={usersCrop} onSort={handleSort} {...rest}/>
+          <UserTable users={usersCrop}
+                     selectedSort={sortBy}
+                     onSort={handleSort}
+                     {...rest}
+          />
         )}
         <div className="d-flex justify-content-center">
           <Pagination
