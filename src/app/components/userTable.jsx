@@ -1,17 +1,17 @@
 import React from 'react';
-import User from "./user";
+// import User from "./user";
 import PropTypes from "prop-types";
-import TableHeader from "./tableHeader";
-import TableBody from "./tableBody";
-import Bookmark from "./bookmark";
+// import Bookmark from "./bookmark";
 import BookMark from "./bookmark";
-import user from "./user";
+// import user from "./user";
+import QualitiesList from "./qualitiesList";
+import Table from "./table";
 
 
 const UserTable = ({users, onSort, selectedSort, onToggleBookMark, onDelete, ...rest}) => {
   const columns = {
     name: {path: 'name', name: 'Имя'},
-    qualities: {name: 'Качество'},
+    qualities: {name: 'Качество', component: (user) => (<QualitiesList qualities={user.qualities}/>)},
     profession: {path: 'profession.name', name: 'Профессия'},
     completedMeetings: {path: 'completedMeetings', name: 'Встретился раз'},
     rate: {path: 'rate', name: 'Оценка'},
@@ -35,15 +35,13 @@ const UserTable = ({users, onSort, selectedSort, onToggleBookMark, onDelete, ...
     },
   }
   return (
-    <table className="table">
-      <TableHeader {...{onSort, selectedSort, columns}}/>
-      <TableBody {...{columns, data: users}}/>
-      {/*<tbody>*/}
-      {/*{users.map((user) => (*/}
-      {/*  <User {...rest} {...user} key={user._id}/>*/}
-      {/*))}*/}
-      {/*</tbody>*/}
-    </table>
+    <>
+      <Table onSort={onSort}
+             selectedSort={selectedSort}
+             columns={columns}
+             data={users}
+      />
+    </>
   );
 }
 
