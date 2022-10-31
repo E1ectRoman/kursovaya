@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e116341-5544-49e5-b9ed-b667206fa124" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/table.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/tableHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/tableHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/user.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/userTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/userTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/usersList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Roman/WebstormProjects/todoshka",
+    "last_opened_file_path": "C:/Users/Roman/WebstormProjects/routingi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +53,8 @@
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components" />
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\layouts" />
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\components\User" />
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\components\Bookmark" />
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\components\Qualitie" />
@@ -91,7 +92,10 @@
       <workItem from="1667054394889" duration="6517000" />
       <workItem from="1667061449705" duration="49000" />
       <workItem from="1667108966180" duration="8000" />
-      <workItem from="1667141008971" duration="3569000" />
+      <workItem from="1667141008971" duration="3936000" />
+      <workItem from="1667176145869" duration="37000" />
+      <workItem from="1667180652693" duration="768000" />
+      <workItem from="1667208415322" duration="6903000" />
     </task>
     <servers />
   </component>
