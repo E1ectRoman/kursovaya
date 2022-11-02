@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e116341-5544-49e5-b9ed-b667206fa124" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/fake.api/user.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/fake.api/user.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/user.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/userPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/userPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/userTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/userTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layouts/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layouts/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roman/WebstormProjects/routingi&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roman/WebstormProjects/todoshka&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,7 +92,10 @@
       <workItem from="1667176145869" duration="37000" />
       <workItem from="1667180652693" duration="768000" />
       <workItem from="1667208415322" duration="8571000" />
-      <workItem from="1667271134925" duration="3631000" />
+      <workItem from="1667271134925" duration="3893000" />
+      <workItem from="1667284582387" duration="2091000" />
+      <workItem from="1667298852893" duration="5584000" />
+      <workItem from="1667365695122" duration="1456000" />
     </task>
     <servers />
   </component>
