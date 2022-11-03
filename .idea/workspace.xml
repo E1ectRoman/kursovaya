@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e116341-5544-49e5-b9ed-b667206fa124" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/textField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/textField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/usersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/usersList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layouts/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +97,10 @@
       <workItem from="1667271134925" duration="3893000" />
       <workItem from="1667284582387" duration="2091000" />
       <workItem from="1667298852893" duration="5584000" />
-      <workItem from="1667365695122" duration="1456000" />
+      <workItem from="1667365695122" duration="3365000" />
+      <workItem from="1667390441486" duration="7263000" />
+      <workItem from="1667437459364" duration="4369000" />
+      <workItem from="1667451712139" duration="3164000" />
     </task>
     <servers />
   </component>
