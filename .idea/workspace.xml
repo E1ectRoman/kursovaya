@@ -3,9 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="3e116341-5544-49e5-b9ed-b667206fa124" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/textField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/textField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/usersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/usersList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/GroupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/GroupList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/bookmark.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/bookmark.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/navBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/qualitiesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/qualities/qualitiesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/quality.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/qualities/quality.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/searchStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/table/table.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/tableBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/table/tableBody.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/tableHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/table/tableHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/textField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/form/textField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/userPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/page/userPage/userPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/userTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/userTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/usersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/page/userPageList/usersPageList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layouts/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layouts/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,31 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roman/WebstormProjects/todoshka&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Roman/WebstormProjects/kursovaya",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\page\userPageList" />
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components" />
-      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\layouts" />
-      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\components\User" />
-      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\components\Bookmark" />
-      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\components\Qualitie" />
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\ui" />
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\page\userPageList" />
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\page\userPage" />
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\page" />
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\common\form" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,7 +115,13 @@
       <workItem from="1667365695122" duration="3365000" />
       <workItem from="1667390441486" duration="7263000" />
       <workItem from="1667437459364" duration="4369000" />
-      <workItem from="1667451712139" duration="3164000" />
+      <workItem from="1667451712139" duration="4745000" />
+      <workItem from="1667528978664" duration="31000" />
+      <workItem from="1667539647691" duration="421000" />
+      <workItem from="1667560690215" duration="2629000" />
+      <workItem from="1667623962389" duration="48000" />
+      <workItem from="1667624022801" duration="1039000" />
+      <workItem from="1667647269992" duration="3005000" />
     </task>
     <servers />
   </component>
