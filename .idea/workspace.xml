@@ -3,23 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3e116341-5544-49e5-b9ed-b667206fa124" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/GroupList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/GroupList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/bookmark.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/bookmark.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/navBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/pagination.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/qualitiesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/qualities/qualitiesList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/quality.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/qualities/quality.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/searchStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/searchStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/table/table.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/tableBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/table/tableBody.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/tableHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/table/tableHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/textField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/form/textField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/userPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/page/userPage/userPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/userTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/userTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/usersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/page/userPageList/usersPageList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layouts/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layouts/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layouts/users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/common/form/textField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/form/textField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/registerForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/registerForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Roman/WebstormProjects/kursovaya",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roman/WebstormProjects/kursovaya/src/app/api/fake.api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\api\fake.api" />
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\app\components\page\userPageList" />
       <recent name="C:\Users\Roman\WebstormProjects\kursovaya\src\icons" />
     </key>
@@ -121,7 +110,13 @@
       <workItem from="1667560690215" duration="2629000" />
       <workItem from="1667623962389" duration="48000" />
       <workItem from="1667624022801" duration="1039000" />
-      <workItem from="1667647269992" duration="3005000" />
+      <workItem from="1667647269992" duration="3292000" />
+      <workItem from="1667663798338" duration="1603000" />
+      <workItem from="1667667773927" duration="602000" />
+      <workItem from="1667722296602" duration="3921000" />
+      <workItem from="1667746269765" duration="1443000" />
+      <workItem from="1667801758660" duration="2828000" />
+      <workItem from="1667827665748" duration="1686000" />
     </task>
     <servers />
   </component>
